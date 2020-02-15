@@ -5,6 +5,7 @@
 
   @media (max-width: 767px) {
     padding: 28px 0;
+    height: 640px;
   }
 }
 
@@ -13,6 +14,10 @@
   display: flex;
   flex-wrap: wrap;
   align-items: center;
+
+  @media (max-width: 767px) {
+    width: 68vw;
+  }
 }
 
 .imageContainer {
@@ -45,6 +50,11 @@
 .descriptionBlock {
   text-align: center;
   width: 100%;
+  
+  @media (max-width: 767px) {
+    margin: 0 auto;
+    width: 76vw; 
+  }
 }
 
 .title {

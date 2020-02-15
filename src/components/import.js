@@ -9,6 +9,8 @@ import TransformGames from './transformGames/TransformGames';
 import Description from './description/Description';
 import Purposes from './purposes/Purposes';
 import About from './about/About';
+import Consult from './consultation/Consult';
+import Meta from './taro/Meta';
 
 export {
   Contacts,
@@ -22,4 +24,6 @@ export {
   Description,
   Purposes,
   About,
+  Consult,
+  Meta,
 };

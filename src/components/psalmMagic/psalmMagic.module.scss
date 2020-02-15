@@ -1,10 +1,15 @@
 .psalm {
   height: 600px;
-  background-color: #f6f6f6;
+  background-color: #fff;
   padding: 80px 0;
 
   @media (max-width: 767px) {
     padding: 52px 0;
+    height: 903px;
+  }
+
+  @media (min-width: 768px ) and (max-width: 1278px) {
+    height: 880px;
   }
 }
 
@@ -57,15 +62,16 @@
   @media (max-width: 767px) {
     margin-bottom: 20px;
     font-size: 29px;
+    margin-top: 20px;
   }
 }
 
 .desc {
-  font-size: 22px;
-  margin-bottom: 30px;
+  font-size: 21px;
+  margin-bottom: 17px;
 
   @media (max-width: 767px) {
-    font-size: 19px;
+    font-size: 17px;
   }
 }
 

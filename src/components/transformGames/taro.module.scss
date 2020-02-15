@@ -1,38 +1,38 @@
-.tarot {
-  height: 745px;
+.taroQuest {
+  height: 466px;
   background-color: #f6f6f6;
   padding: 80px 0;
-  
+
   @media (max-width: 767px) {
-    padding: 38px 0;
-    height: 1060px;
+    padding: 37px 0;
+    height: 806px;
   }
 
-  @media (min-width: 768px) and (max-width: 1279px) {
-    height: 1060px;
+  @media (min-width: 768px ) and (max-width: 1278px) {
+    height: 654px;
   }
 }
 
-.tarotContainer {
+.taroQuestContainer {
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 100%;
-  
+
   @media (max-width: 767px) {
-    flex-direction: column-reverse;
+    flex-direction: column;
   }
 }
 
 .imageContainer {
-  height: 330px;
-  
+  height: 358px;
+
   @media (min-width: 768px ) and (max-width: 1278px) {
-    height: 167px;
+    height: 178px;
   }
-  
+
   @media (max-width: 767px) {
-    height: 180px;
+    height: 155px;
   }
 }
 
@@ -57,23 +57,21 @@
 
 .title {
   margin-bottom: 30px;
-  font-size: 50px;
-  
+  font-size: 42px;
+  text-align: center;
+
   @media (max-width: 767px) {
-    margin-bottom: 12px;
-    font-size: 29px;
+    margin-bottom: 10px;
+    font-size: 28px;
   }
 }
 
 .desc {
-  font-size: 20px;
-  margin-bottom: 15px;
-  
-  @media (max-width: 767px) {
-    font-size: 16px;
-  }
+  font-size: 22px;
+  margin-bottom: 17px;
 
-  @media (min-width: 768px) and (max-width: 1279px) {
+
+  @media (max-width: 767px) {
     font-size: 18px;
   }
 }
@@ -93,7 +91,7 @@
   transition-duration: .2s;
   transition-property: all;
   transition-timing-function: linear;
-  
+
   &:hover {
     transform: scale(1.05, 1.05);
   }

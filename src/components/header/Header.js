@@ -1,7 +1,7 @@
 import React from 'react';
 import Media from 'react-media';
 
-import logo from '../../services/img/pentacle.png';
+import logo from '../../services/img/psychology.png';
 
 import styles from './header.module.scss';
 
@@ -28,6 +28,11 @@ function Header() {
             matches.desctop ? (
               <nav className={styles.navigation}>
                 <ul className={styles.navigationList}>
+                  <li className={styles.navitagionListItem}>
+                    <a href={null} className={styles.navigationLink} onClick={() => scrollTo(8)}>
+                      Психология
+                    </a>
+                  </li>
                   <li className={styles.navitagionListItem}>
                     <a href={null} className={styles.navigationLink} onClick={() => scrollTo(1)}>
                       Таро

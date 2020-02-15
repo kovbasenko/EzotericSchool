@@ -12,6 +12,8 @@ import {
   HeroWay,
   About,
   Contacts,
+  Consult,
+  Meta,
 } from './import';
 
 const App = () => {
@@ -21,6 +23,8 @@ const App = () => {
       <Main />
       <Purposes />
       <Description />
+      <Consult />
+      <Meta />
       <Taro />
       <Runes />
       <PsalmMagic />

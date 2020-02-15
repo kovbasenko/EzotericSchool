@@ -21,7 +21,7 @@ function Purposes(props) {
               Создание, развитие и популяризация научного подхода к изучению Таро
             </li>
             <li className={styles.listItem}>Подготовка тарологов-консультантов</li>
-            <li className={styles.listItem}>Трансформация личности</li>
+            <li className={styles.listItem}>Гармонизация личности</li>
           </ul>
         </div>
       </div>
